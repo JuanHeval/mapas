@@ -16,10 +16,10 @@ export class AppComponent {
   nombre: string= ''
   paises: any =[
 
-    {activo: true,nombre:'Colombia'},
-    {activo: false,nombre:'Argentina'},
-    {activo: true,nombre:'Brasil'},
-    {activo: false,nombre:'Peru'}
+    {cercano: 1, activo: true,nombre:'Colombia'},
+    {cercano: 2,activo: false,nombre:'Argentina'},
+    {cercano: 2,activo: true,nombre:'Brasil'},
+    {cercano: 3,activo: false,nombre:'Peru'}
 
 
    
